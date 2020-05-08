@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "picpay-rn",
-    "slug": "picpay-rn",
+    "name": "PedroPay",
+    "slug": "PedroPay",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,7 +12,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0db060"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,6 +22,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.pedbarros.pedropay",
+      "versionCode": 1
     }
   }
 }
