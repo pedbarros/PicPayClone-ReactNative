@@ -33,21 +33,21 @@ export default function Navigation () {
   return (
     <Tab.Navigator
         initialRouteName="Wallet"
-        screenOptions={({ route, navigation }) => ({ 
-        tabBarIcon: ({ color, size, focused }) => {
-          if (route.name === 'Pay') {
-            return (
-              <PayButton 
-                onPress={() => navigation.navigate('Pay')}  
-                focused={focused}
-              />
-            )
-          }
+        screenOptions={({ route, navigation }) => ({
+          tabBarIcon: ({ color, size, focused }) => {
+            if (route.name === 'Pay') {
+              return (
+                <PayButton 
+                  onPress={() => navigation.navigate('Pay')}  
+                  focused={focused}
+                />
+              )
+            }
 
-          const { lib: Icon, name } = icons[route.name];
-          return <Icon name={name} size={size} color={color} />
-        }
-      })}
+            const { lib: Icon, name } = icons[route.name];
+            return <Icon name={name} size={size} color={color} />
+          }
+        })}
       tabBarOptions={{
         style: {
           backgroundColor: '#131418',

@@ -2,7 +2,6 @@ import React from 'react';
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
 import { Wrapper, Header, BalanceContainer, BalanceTitle, Balance, Container } from './styles';
 
-
 import Suggestions from '../../components/Suggestions';
 import Activities from '../../components/Activities';
 import Tips from '../../components/Tips';

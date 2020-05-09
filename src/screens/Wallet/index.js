@@ -15,7 +15,7 @@ export default function Wallet () {
   const [useBalance, setUseBalance] = useState(true);
 
   function handleToggleVisibility() {
-    setIsVisible((prevState) => !prevState);    
+    setIsVisible((prevState) => !prevState);
   }
 
   function handleToggleUseBalance() {
